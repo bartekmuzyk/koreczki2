@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="koreczki2_2726" />
+    <profile name="sbt 2" modules="koreczki2">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-explain" />
+        <parameter value="-print-lines" />
+        <parameter value="-Xmigration" />
+        <parameter value="-source:3.3" />
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Wconf:cat=other-match-analysis:error" />
+      </parameters>
+    </profile>
+  </component>
+</project>
